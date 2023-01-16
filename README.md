@@ -41,11 +41,10 @@ The command to creat a react app
       
       
 5-Configure webpack
-
-      ou can configure webpack in the webpack.config.js file by adding the following code. It defines your app entry point, build output and the extension which will resolve automatically. It also set the development server to 8080 port. It defines the loaders for processing various file types used within your app and wrap up by adding plugins needed during our development.
+you can configure webpack in the webpack.config.js file by adding the following code. It defines your app entry point, build output and the extension which will resolve automatically. It also set the development server to 8080 port. It defines the loaders for processing various file types used within your app and wrap up by adding plugins needed during our development.
       
       
-          const path = require('path');  
+    const path = require('path');  
     const HtmlWebpackPlugin = require('html-webpack-plugin');  
       
     module.exports = {  
@@ -74,7 +73,7 @@ The command to creat a react app
              template: './index.html'  
           })  
        ]  
-    }  
+    }   
     
     
     Now, open the package.json file and delete "test" "echo \" Error: no test specified\" && exit 1" inside "scripts" object, then add the start and build commands instead. It is because we will not perform any testing in this app.
