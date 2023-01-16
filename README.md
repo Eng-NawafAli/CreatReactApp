@@ -14,9 +14,9 @@ The command to creat a react app
 2-Install Webpack
         Webpack is used for module packaging, development, and production pipeline automation. We will use webpack-dev-server during development, webpack to create             production builds, and webpack CLI provides a set of commands. Webpack compiles these into a single file(bundle).
         
-            javatpoint@root:~/Desktop/reactApp>npm install webpack --save  
-            javatpoint@root:~/Desktop/reactApp>npm install webpack-dev-server --save  
-            javatpoint@root:~/Desktop/reactApp>npm install webpack-cli --save  
+           --> npm install webpack --save  
+           -->  npm install webpack-dev-server --save  
+           -->  npm install webpack-cli --save  
 
 
 
@@ -25,11 +25,11 @@ The command to creat a react app
 
     Babel is a JavaScript compiler and transpiler used to convert one source code to others. It compiles React JSX and ES6 to ES5 JavaScript which can be run on all         browsers. We need babel-loader for JSX file types, babel-preset-react makes your browser update automatically when any changes occur to your code without losing the     current state of the app. ES6 support requires babel-preset-env Babel preset.
     
-          javatpoint@root:~/Desktop/reactApp>npm install babel-core --save-dev  
-          javatpoint@root:~/Desktop/reactApp>npm install babel-loader --save-dev  
-          javatpoint@root:~/Desktop/reactApp>npm install babel-preset-env --save-dev  
-          javatpoint@root:~/Desktop/reactApp>npm install babel-preset-react --save-dev  
-          javatpoint@root:~/Desktop/reactApp>npm install babel-webpack-plugin --save-dev  
+         --> npm install babel-core --save-dev  
+          --> npm install babel-loader --save-dev  
+          --> npm install babel-preset-env --save-dev  
+        ---> npm install babel-preset-react --save-dev  
+         ---> npm install babel-webpack-plugin --save-dev  
           
           
           
@@ -76,10 +76,8 @@ you can configure webpack in the webpack.config.js file by adding the following 
     }   
     
     
-    Now, open the package.json file and delete "test" "echo \" Error: no test specified\" && exit 1" inside "scripts" object, then add the start and build commands instead. It is because we will not perform any testing in this app.
-    
-    
-    
+Now, open the package.json file and delete "test" "echo \" Error: no test specified\" && exit 1" inside "scripts" object, then add the start and build commands instead. It is because we will not perform any testing in this app.
+        
         {  
       "name": "reactApp",  
       "version": "1.0.0",  
